@@ -1,19 +1,26 @@
-theme: jekyll-theme-minimal
-title: Baihaiyu
-description: Welcome to my GitHub Pages demo website
+title: Haiyu Bai
+description: Academic website and research portfolio
 show_downloads: false
-google_analytics: 
+google_analytics: # Add your Google Analytics ID here
 
-# SEO优化
-lang: zh-CN
+# SEO Settings
+lang: en
 author: Haiyu Bai
-keywords: "portfolio, developer, web development, GitHub Pages"
+keywords: "research, academic, machine learning, data science, publications"
 
-# 社交媒体链接（可选）
+# Academic Links
 github_username: haiyu-bai
-# linkedin_username: haiyu-bai
-# twitter_username: haiyu_bai
+# orcid_id: 0000-0000-0000-0000
+# scholar_id: your-google-scholar-id
 
-# 网站设置
-timezone: Asia/Shanghai
+# Site Settings
+timezone: UTC
 encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+
+# Collections for academic content
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name/

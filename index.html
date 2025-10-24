@@ -3,172 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haiyu Bai - GitHub Pages Demo</title>
+    <title>Haiyu Bai</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <h1 class="nav-logo">Haiyu Bai</h1>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">首页</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">关于</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">项目</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">联系</a>
-                </li>
-            </ul>
-            <div class="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title">Haiyu Bai</h1>
+            <nav class="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h1 class="hero-title">欢迎来到我的GitHub Pages</h1>
-                    <p class="hero-subtitle">这是一个展示我的项目和技能的个人网站</p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">查看项目</a>
-                        <a href="#contact" class="btn btn-secondary">联系我</a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="floating-card">
-                        <i class="fas fa-code"></i>
-                        <h3>Web开发</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <main class="main">
 
         <!-- About Section -->
-        <section id="about" class="about">
+        <section id="about" class="section">
             <div class="container">
-                <h2 class="section-title">关于我</h2>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>你好！我是Haiyu Bai，一名热衷于技术的开发者。我喜欢创建有用的工具和美观的界面。</p>
-                        <p>这个GitHub Pages网站展示了我的一些项目和技能。欢迎浏览并了解更多关于我的工作。</p>
-                        <div class="skills">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">HTML/CSS</span>
-                        </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <div class="placeholder-photo">HB</div>
                     </div>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <i class="fas fa-project-diagram"></i>
-                            <h3>15+</h3>
-                            <p>完成项目</p>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-coffee"></i>
-                            <h3>500+</h3>
-                            <p>杯咖啡</p>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-clock"></i>
-                            <h3>2+</h3>
-                            <p>年经验</p>
+                    <div class="profile-content">
+                        <h2>About</h2>
+                        <p>I am a researcher interested in computational methods and their applications. My work focuses on developing algorithms and systems that address practical problems in various domains.</p>
+                        <p>Currently pursuing research in machine learning, data analysis, and software engineering with emphasis on reproducible and scalable solutions.</p>
+                        
+                        <div class="contact-info">
+                            <p><strong>Email:</strong> haiyu.bai@example.com</p>
+                            <p><strong>Location:</strong> Academic Institution</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="projects">
+        <!-- Research Section -->
+        <section id="research" class="section">
             <div class="container">
-                <h2 class="section-title">我的项目</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3>个人网站</h3>
-                            <p>使用现代web技术构建的响应式个人网站</p>
-                            <div class="project-tech">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    演示
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    代码
-                                </a>
-                            </div>
+                <h2>Research Interests</h2>
+                <div class="research-areas">
+                    <div class="research-item">
+                        <h3>Machine Learning</h3>
+                        <p>Development of novel algorithms for pattern recognition and predictive modeling with applications in various domains.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Data Science</h3>
+                        <p>Statistical analysis and visualization techniques for extracting insights from complex datasets.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Software Engineering</h3>
+                        <p>Building robust, scalable systems with focus on code quality, testing, and maintainability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2>Publications & Projects</h2>
+                <div class="publications">
+                    <div class="publication">
+                        <h3>Project Title 1</h3>
+                        <p class="authors">H. Bai, et al.</p>
+                        <p class="venue"><em>Conference/Journal Name</em>, 2024</p>
+                        <p class="description">Brief description of the research contribution and methodology used in this work.</p>
+                        <div class="links">
+                            <a href="#" class="link">Paper</a>
+                            <a href="#" class="link">Code</a>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3>数据可视化工具</h3>
-                            <p>一个用于数据分析和可视化的交互式工具</p>
-                            <div class="project-tech">
-                                <span>Python</span>
-                                <span>D3.js</span>
-                                <span>Flask</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    演示
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    代码
-                                </a>
-                            </div>
+                    
+                    <div class="publication">
+                        <h3>Project Title 2</h3>
+                        <p class="authors">H. Bai, Co-author Name</p>
+                        <p class="venue"><em>Workshop/Conference Name</em>, 2023</p>
+                        <p class="description">Description of another research project or publication with focus on technical contributions.</p>
+                        <div class="links">
+                            <a href="#" class="link">Demo</a>
+                            <a href="#" class="link">GitHub</a>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3>移动应用</h3>
-                            <p>跨平台移动应用，提供优秀的用户体验</p>
-                            <div class="project-tech">
-                                <span>React Native</span>
-                                <span>TypeScript</span>
-                                <span>Firebase</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    演示
-                                </a>
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    代码
-                                </a>
-                            </div>
+                    
+                    <div class="publication">
+                        <h3>Open Source Project</h3>
+                        <p class="authors">H. Bai</p>
+                        <p class="venue"><em>GitHub Repository</em>, 2023</p>
+                        <p class="description">A software tool or library developed for the research community with practical applications.</p>
+                        <div class="links">
+                            <a href="#" class="link">Repository</a>
+                            <a href="#" class="link">Documentation</a>
                         </div>
                     </div>
                 </div>
@@ -176,40 +106,20 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact">
+        <section id="contact" class="section">
             <div class="container">
-                <h2 class="section-title">联系我</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <h3>让我们保持联系</h3>
-                        <p>如果你对我的项目感兴趣，或者想要合作，请随时联系我！</p>
-                        <div class="contact-methods">
-                            <div class="contact-method">
-                                <i class="fas fa-envelope"></i>
-                                <span>haiyu.bai@example.com</span>
-                            </div>
-                            <div class="contact-method">
-                                <i class="fab fa-github"></i>
-                                <span>github.com/haiyu-bai</span>
-                            </div>
-                            <div class="contact-method">
-                                <i class="fab fa-linkedin"></i>
-                                <span>linkedin.com/in/haiyu-bai</span>
-                            </div>
-                        </div>
+                <h2>Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-text">
+                        <p>I am always interested in discussing research collaborations, new ideas, and potential opportunities.</p>
+                        <p>Feel free to reach out via email or connect with me through the links below.</p>
                     </div>
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="你的姓名" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="你的邮箱" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" rows="5" placeholder="你的消息" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">发送消息</button>
-                    </form>
+                    <div class="contact-links">
+                        <p><a href="mailto:haiyu.bai@example.com">haiyu.bai@example.com</a></p>
+                        <p><a href="https://github.com/haiyu-bai">GitHub</a></p>
+                        <p><a href="#">ORCID</a></p>
+                        <p><a href="#">Google Scholar</a></p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -217,23 +127,10 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2024 Haiyu Bai. 保留所有权利。</p>
-                <div class="social-links">
-                    <a href="#" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-            </div>
+            <p>&copy; 2024 Haiyu Bai. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
+</body>
+</html>
 </body>
 </html>
