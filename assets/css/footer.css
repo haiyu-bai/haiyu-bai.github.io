@@ -1,0 +1,42 @@
+/* Footer component styles */
+.footer {
+    background: #f8f9fa;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .footer {
+        display: none;
+    }
+    
+    .main {
+        padding-top: 0;
+    }
+    
+    .section {
+        break-inside: avoid;
+        border-bottom: none;
+    }
+    
+    .publication {
+        break-inside: avoid;
+    }
+    
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+    
+    .link {
+        border: none;
+        padding: 0;
+        font-weight: normal;
+    }
+}

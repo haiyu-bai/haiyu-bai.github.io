@@ -1,7 +1,7 @@
+# Jekyll Configuration for GitHub Pages
 title: Haiyu Bai
 description: Academic website and research portfolio
 show_downloads: false
-google_analytics: # Add your Google Analytics ID here
 
 # SEO Settings
 lang: en
@@ -19,8 +19,24 @@ encoding: utf-8
 markdown: kramdown
 highlighter: rouge
 
+# Build settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # Collections for academic content
 collections:
   publications:
     output: true
     permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - .gitignore
+  - README.md
+  - docs/
+  - assets/js/navigation.js
+  - assets/js/utils.js
+  - components/
