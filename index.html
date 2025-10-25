@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haiyu Bai - Academic Website</title>
+    <title>Haiyu Bai - Home Page</title>
     
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/base.css">
@@ -15,21 +15,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Haiyu Bai - Academic website and research portfolio">
-    <meta name="keywords" content="research, academic, machine learning, data science, publications">
-    <meta name="author" content="Haiyu Bai">
+    <meta name="description" content="白海宇 - Home Page">
+    <meta name="keywords" content="resume, home page,">
+    <meta name="author" content="Bai Haiyu">
 </head>
 <body>
     <!-- Header Component -->
     <header class="header">
         <div class="container">
             <h1 class="site-title">Haiyu Bai</h1>
-            <nav class="nav">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#research" class="nav-link">Research</a>
-                <a href="#publications" class="nav-link">Publications</a>
-                <a href="pages/cv.html" class="nav-link">CV</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                        <nav class="nav">
+                <div class="nav-section">
+                    <span class="nav-title">Home</span>
+                    <div class="nav-anchors">
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </div>
+                </div>
+                <a href="pages/resume.html" class="nav-link nav-page">Resume</a>
             </nav>
         </div>
     </header>
@@ -44,75 +48,66 @@
                         <div class="placeholder-photo">HB</div>
                     </div>
                     <div class="profile-content">
-                        <h2>About</h2>
-                        <p>I am a researcher interested in computational methods and their applications. My work focuses on developing algorithms and systems that address practical problems in various domains.</p>
-                        <p>Currently pursuing research in machine learning, data analysis, and software engineering with emphasis on reproducible and scalable solutions.</p>
+                        <h2>About Me</h2>
+                        <p>I am a graduate student in Computer Science, passionate about technology and continuous learning. Currently pursuing my Master's degree with focus on software development and computational problem-solving.</p>
+                        <p>I enjoy building projects, learning new technologies, and exploring different areas of computer science. Always eager to collaborate and contribute to meaningful projects.</p>
                         
                         <div class="contact-info">
                             <p><strong>Email:</strong> haiyu.bai@example.com</p>
-                            <p><strong>Location:</strong> Academic Institution</p>
+                            <p><strong>Status:</strong> Computer Science Graduate Student</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Research Section -->
-        <section id="research" class="section">
+        <!-- Projects Section -->
+        <section id="projects" class="section">
             <div class="container">
-                <h2>Research Interests</h2>
-                <div class="research-areas">
-                    <div class="research-item">
-                        <h3>Machine Learning</h3>
-                        <p>Development of novel algorithms for pattern recognition and predictive modeling with applications in various domains.</p>
-                    </div>
-                    <div class="research-item">
-                        <h3>Data Science</h3>
-                        <p>Statistical analysis and visualization techniques for extracting insights from complex datasets.</p>
-                    </div>
-                    <div class="research-item">
-                        <h3>Software Engineering</h3>
-                        <p>Building robust, scalable systems with focus on code quality, testing, and maintainability.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Publications Section -->
-        <section id="publications" class="section">
-            <div class="container">
-                <h2>Publications & Projects</h2>
-                <div class="publications">
-                    <div class="publication">
-                        <h3>Project Title 1</h3>
-                        <p class="authors">H. Bai, et al.</p>
-                        <p class="venue"><em>Conference/Journal Name</em>, 2024</p>
-                        <p class="description">Brief description of the research contribution and methodology used in this work.</p>
-                        <div class="links">
-                            <a href="#" class="link">Paper</a>
-                            <a href="#" class="link">Code</a>
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Personal Website</h3>
+                        <p class="project-type">Web Development</p>
+                        <p class="project-description">A clean, responsive personal website built with modern web technologies. Features modular architecture and academic-style design.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">GitHub Pages</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Source Code</a>
                         </div>
                     </div>
                     
-                    <div class="publication">
-                        <h3>Project Title 2</h3>
-                        <p class="authors">H. Bai, Co-author Name</p>
-                        <p class="venue"><em>Workshop/Conference Name</em>, 2023</p>
-                        <p class="description">Description of another research project or publication with focus on technical contributions.</p>
-                        <div class="links">
-                            <a href="#" class="link">Demo</a>
-                            <a href="#" class="link">GitHub</a>
+                    <div class="project-card">
+                        <h3>Course Management System</h3>
+                        <p class="project-type">Full-Stack Development</p>
+                        <p class="project-description">A web application for managing course assignments and student progress. Built as part of coursework with focus on user experience.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
                         </div>
                     </div>
                     
-                    <div class="publication">
-                        <h3>Open Source Project</h3>
-                        <p class="authors">H. Bai</p>
-                        <p class="venue"><em>GitHub Repository</em>, 2023</p>
-                        <p class="description">A software tool or library developed for the research community with practical applications.</p>
-                        <div class="links">
-                            <a href="#" class="link">Repository</a>
-                            <a href="#" class="link">Documentation</a>
+                    <div class="project-card">
+                        <h3>Data Analysis Tool</h3>
+                        <p class="project-type">Python Development</p>
+                        <p class="project-description">A Python-based tool for processing and visualizing datasets. Includes various statistical analysis features and interactive charts.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Repository</a>
+                            <a href="#" class="project-link">Documentation</a>
                         </div>
                     </div>
                 </div>
@@ -122,17 +117,17 @@
         <!-- Contact Section -->
         <section id="contact" class="section">
             <div class="container">
-                <h2>Contact</h2>
+                <h2>Get In Touch</h2>
                 <div class="contact-grid">
                     <div class="contact-text">
-                        <p>I am always interested in discussing research collaborations, new ideas, and potential opportunities.</p>
-                        <p>Feel free to reach out via email or connect with me through the links below.</p>
+                        <p>I'm always open to discussing new opportunities, collaboration on projects, or just having a chat about technology and computer science.</p>
+                        <p>Feel free to reach out through any of the channels below!</p>
                     </div>
                     <div class="contact-links">
                         <p><a href="mailto:haiyu.bai@example.com">haiyu.bai@example.com</a></p>
                         <p><a href="https://github.com/haiyu-bai">GitHub</a></p>
-                        <p><a href="#">ORCID</a></p>
-                        <p><a href="#">Google Scholar</a></p>
+                        <p><a href="#">LinkedIn</a></p>
+                        <p><a href="#">Twitter</a></p>
                     </div>
                 </div>
             </div>
@@ -142,7 +137,7 @@
     <!-- Footer Component -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Haiyu Bai. All rights reserved.</p>
+            <p>&copy; 2025 Haiyu Bai. All rights reserved.</p>
         </div>
     </footer>
 

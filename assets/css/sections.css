@@ -139,6 +139,86 @@
     text-decoration: none;
 }
 
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.project-card h3 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.project-type {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+    background: #ecf0f1;
+    color: #2c3e50;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-link {
+    color: #3498db;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.project-link:hover {
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+}
+
 /* Contact Section */
 .contact-grid {
     display: grid;
@@ -321,4 +401,51 @@
     .links {
         justify-content: flex-start;
     }
+}
+
+/* Teaching Assistant Styles */
+.teaching-section {
+    margin-bottom: 2rem;
+}
+
+.course-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #2c3e50;
+}
+
+.course-item h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.course-term {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.course-description {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.ta-responsibilities {
+    margin-top: 1rem;
+}
+
+.ta-responsibilities h5 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.ta-responsibilities ul {
+    margin-left: 1rem;
+}
+
+.ta-responsibilities li {
+    margin-bottom: 0.3rem;
 }

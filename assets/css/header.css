@@ -57,3 +57,67 @@
         text-align: center;
     }
 }
+
+/* New Navigation Structure */
+.nav-section {
+    position: relative;
+}
+
+.nav-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-right: 0.5rem;
+}
+
+.nav-anchors {
+    display: inline-flex;
+    gap: 1rem;
+    margin-left: 0.5rem;
+}
+
+.nav-anchors .nav-link {
+    font-size: 0.9rem;
+    color: #666;
+    border-left: 1px solid #ddd;
+    padding-left: 0.75rem;
+}
+
+.nav-anchors .nav-link:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+.nav-page {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+/* Mobile styles for new navigation */
+@media (max-width: 768px) {
+    .nav-anchors {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+    
+    .nav-anchors .nav-link {
+        border-left: none;
+        padding-left: 0;
+        font-size: 0.85rem;
+    }
+    
+    .nav-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        align-items: center;
+    }
+    
+    .nav-anchors {
+        justify-content: center;
+    }
+}
